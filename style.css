@@ -1,0 +1,57 @@
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px;
+  }
+
+  
+  div:hover{
+  background-color: rgb(110, 88, 193);
+ }
+
+  div:hover>h1 {
+    color: aqua;
+  }
+
+  div:hover>p{
+    color: aqua;
+  }
+
+  div{
+    border-radius: 35px;
+    
+  }
+
+  h1{
+    color: blueviolet;
+  }
+
+p{
+    color: blueviolet;
+}
+ 
+
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+    
+ 
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+  
+.card {
+    box-shadow:  0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 100px;
+    text-align: center;
+    color: wheat;
+  }
+ 
+  
